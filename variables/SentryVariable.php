@@ -61,7 +61,7 @@ class SentryVariable
     {
         return craft()->sentry->publicDsn();
     }
-    
+
     /**
      * True if the Sentry public DSN is specified by the environment (.env or whatever)
      * @return boolean
